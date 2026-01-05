@@ -1,11 +1,20 @@
 {
   "name": "training-diary-bot",
   "version": "1.0.0",
-  "description": "Telegram bot for logging training sessions",
-  "main": "index.js",
+  "description": "Telegram bot for logging training sessions with admin archive and NGFit branding",
   "type": "module",
-  "scripts": {"start": "node index.js"},
-  "author": "Nikita",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "nikita",
   "license": "MIT",
-  "dependencies": {"telegraf": "^4.12.3", "lowdb": "^5.0.0", "dotenv": "^16.4.5"}
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "lowdb": "^6.0.1",
+    "telegraf": "^4.15.0"
+  }
 }
